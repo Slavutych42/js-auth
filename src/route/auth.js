@@ -2,6 +2,8 @@ const express = require('express')
 const router = express.Router()
 
 const { User } = require('../class/user')
+const { Confirm } = require('../class/confirm')
+const { Session } = require('../class/session')
 
 User.create({
   email: 'test@email.com',
